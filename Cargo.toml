@@ -1,0 +1,13 @@
+[package]
+name = "ez-encrypt"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aes = "0.8"
+rand = "0.8"
+base64 = "0.21"
+eframe = "0.22"
+rfd = "0.12"
+ctr = "0.9"
+sha2 = "0.10"

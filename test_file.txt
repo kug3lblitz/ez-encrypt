@@ -1,0 +1,25 @@
+Hello, this is a test file for the Ez-Encrypt application!
+
+This file contains some sample text that we can use to test the encryption and decryption functionality.
+
+Here are some features of the application:
+- Simple 3-button interface (Encrypt, Decrypt, Exit)
+- AES-256 encryption with secure key derivation
+- Password-based encryption
+- Automatic file handling (adds .enc extension for encrypted files)
+- Cross-platform GUI using eframe/egui
+
+The application is designed to be "idiot-friendly" - just place the executable in the same directory as your files, enter a password, and click Encrypt or Decrypt!
+
+Security features:
+- Uses SHA-256 for key derivation from passwords
+- Random salt generation for each encryption
+- Random IV (initialization vector) for each encryption
+- Salt and IV are stored with the encrypted file for proper decryption
+
+Test data:
+- Numbers: 1234567890
+- Special characters: !@#$%^&*()_+-={}[]|;':".,<>?
+- Unicode: 🔐 🔒 🔓 ✅ ❌ 💡
+
+This should be sufficient content to test that the encryption/decryption process works correctly and preserves all types of characters.
